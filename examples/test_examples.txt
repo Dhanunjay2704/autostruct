@@ -1,0 +1,515 @@
+# Sample Project Structures
+
+## 🚀 **Basic Web Project**
+
+### ASCII Format (sample.txt)
+```
+my-web-project/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── hero.jpg
+│   └── fonts/
+│       └── custom.woff
+└── pages/
+    ├── about.html
+    └── contact.html
+```
+
+### JSON Format (sample.json)
+```json
+{
+  "my-web-project": {
+    "index.html": null,
+    "style.css": null,
+    "script.js": null,
+    "assets": {
+      "images": {
+        "logo.png": null,
+        "hero.jpg": null
+      },
+      "fonts": {
+        "custom.woff": null
+      }
+    },
+    "pages": {
+      "about.html": null,
+      "contact.html": null
+    }
+  }
+}
+```
+
+### YAML Format (sample.yaml)
+```yaml
+my-web-project:
+  index.html: null
+  style.css: null
+  script.js: null
+  assets:
+    images:
+      logo.png: null
+      hero.jpg: null
+    fonts:
+      custom.woff: null
+  pages:
+    about.html: null
+    contact.html: null
+```
+
+---
+
+## 🤖 **Machine Learning Project**
+
+### ASCII Format
+```
+ml-project/
+├── main.py
+├── requirements.txt
+├── README.md
+├── data/
+│   ├── raw/
+│   │   └── dataset.csv
+│   ├── processed/
+│   │   └── clean_data.csv
+│   └── external/
+├── models/
+│   ├── model.pkl
+│   └── scaler.pkl
+├── notebooks/
+│   ├── exploration.ipynb
+│   └── training.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
+└── tests/
+    ├── test_preprocess.py
+    └── test_model.py
+```
+
+### JSON Format
+```json
+{
+  "ml-project": {
+    "main.py": null,
+    "requirements.txt": null,
+    "README.md": null,
+    "data": {
+      "raw": {
+        "dataset.csv": null
+      },
+      "processed": {
+        "clean_data.csv": null
+      },
+      "external": {}
+    },
+    "models": {
+      "model.pkl": null,
+      "scaler.pkl": null
+    },
+    "notebooks": {
+      "exploration.ipynb": null,
+      "training.ipynb": null
+    },
+    "src": {
+      "__init__.py": null,
+      "preprocess.py": null,
+      "train.py": null,
+      "predict.py": null
+    },
+    "tests": {
+      "test_preprocess.py": null,
+      "test_model.py": null
+    }
+  }
+}
+```
+
+### YAML Format
+```yaml
+ml-project:
+  main.py: null
+  requirements.txt: null
+  README.md: null
+  data:
+    raw:
+      dataset.csv: null
+    processed:
+      clean_data.csv: null
+    external: {}
+  models:
+    model.pkl: null
+    scaler.pkl: null
+  notebooks:
+    exploration.ipynb: null
+    training.ipynb: null
+  src:
+    __init__.py: null
+    preprocess.py: null
+    train.py: null
+    predict.py: null
+  tests:
+    test_preprocess.py: null
+    test_model.py: null
+```
+
+---
+
+## 🌐 **Flask Web App**
+
+### ASCII Format
+```
+flask-app/
+├── app.py
+├── requirements.txt
+├── config.py
+├── .env
+├── .gitignore
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── about.html
+│   └── contact.html
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── favicon.ico
+├── models/
+│   ├── __init__.py
+│   └── user.py
+├── routes/
+│   ├── __init__.py
+│   ├── main.py
+│   └── auth.py
+└── migrations/
+    └── versions/
+```
+
+### JSON Format
+```json
+{
+  "flask-app": {
+    "app.py": null,
+    "requirements.txt": null,
+    "config.py": null,
+    ".env": null,
+    ".gitignore": null,
+    "templates": {
+      "base.html": null,
+      "index.html": null,
+      "about.html": null,
+      "contact.html": null
+    },
+    "static": {
+      "css": {
+        "style.css": null
+      },
+      "js": {
+        "main.js": null
+      },
+      "images": {
+        "favicon.ico": null
+      }
+    },
+    "models": {
+      "__init__.py": null,
+      "user.py": null
+    },
+    "routes": {
+      "__init__.py": null,
+      "main.py": null,
+      "auth.py": null
+    },
+    "migrations": {
+      "versions": {}
+    }
+  }
+}
+```
+
+### YAML Format
+```yaml
+flask-app:
+  app.py: null
+  requirements.txt: null
+  config.py: null
+  .env: null
+  .gitignore: null
+  templates:
+    base.html: null
+    index.html: null
+    about.html: null
+    contact.html: null
+  static:
+    css:
+      style.css: null
+    js:
+      main.js: null
+    images:
+      favicon.ico: null
+  models:
+    __init__.py: null
+    user.py: null
+  routes:
+    __init__.py: null
+    main.py: null
+    auth.py: null
+  migrations:
+    versions: {}
+```
+
+---
+
+## 📱 **React App Structure**
+
+### ASCII Format
+```
+react-app/
+├── package.json
+├── README.md
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── index.js
+│   ├── App.js
+│   ├── App.css
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── Navigation.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── Contact.js
+│   ├── hooks/
+│   │   └── useAuth.js
+│   └── utils/
+│       └── helpers.js
+└── tests/
+    ├── App.test.js
+    └── components/
+        └── Header.test.js
+```
+
+### JSON Format
+```json
+{
+  "react-app": {
+    "package.json": null,
+    "README.md": null,
+    "public": {
+      "index.html": null,
+      "favicon.ico": null,
+      "manifest.json": null
+    },
+    "src": {
+      "index.js": null,
+      "App.js": null,
+      "App.css": null,
+      "components": {
+        "Header.js": null,
+        "Footer.js": null,
+        "Navigation.js": null
+      },
+      "pages": {
+        "Home.js": null,
+        "About.js": null,
+        "Contact.js": null
+      },
+      "hooks": {
+        "useAuth.js": null
+      },
+      "utils": {
+        "helpers.js": null
+      }
+    },
+    "tests": {
+      "App.test.js": null,
+      "components": {
+        "Header.test.js": null
+      }
+    }
+  }
+}
+```
+
+### YAML Format
+```yaml
+react-app:
+  package.json: null
+  README.md: null
+  public:
+    index.html: null
+    favicon.ico: null
+    manifest.json: null
+  src:
+    index.js: null
+    App.js: null
+    App.css: null
+    components:
+      Header.js: null
+      Footer.js: null
+      Navigation.js: null
+    pages:
+      Home.js: null
+      About.js: null
+      Contact.js: null
+    hooks:
+      useAuth.js: null
+    utils:
+      helpers.js: null
+  tests:
+    App.test.js: null
+    components:
+      Header.test.js: null
+```
+
+---
+
+## 🔬 **Simple Research Project**
+
+### ASCII Format
+```
+research-project/
+├── paper.pdf
+├── README.md
+├── code/
+│   ├── analysis.py
+│   ├── visualization.py
+│   └── utils.py
+├── data/
+│   ├── input/
+│   │   └── survey.csv
+│   └── output/
+│       └── results.json
+├── figures/
+│   ├── chart1.png
+│   └── chart2.png
+└── docs/
+    ├── methodology.md
+    └── references.bib
+```
+
+### JSON Format
+```json
+{
+  "research-project": {
+    "paper.pdf": null,
+    "README.md": null,
+    "code": {
+      "analysis.py": null,
+      "visualization.py": null,
+      "utils.py": null
+    },
+    "data": {
+      "input": {
+        "survey.csv": null
+      },
+      "output": {
+        "results.json": null
+      }
+    },
+    "figures": {
+      "chart1.png": null,
+      "chart2.png": null
+    },
+    "docs": {
+      "methodology.md": null,
+      "references.bib": null
+    }
+  }
+}
+```
+
+### YAML Format
+```yaml
+research-project:
+  paper.pdf: null
+  README.md: null
+  code:
+    analysis.py: null
+    visualization.py: null
+    utils.py: null
+  data:
+    input:
+      survey.csv: null
+    output:
+      results.json: null
+  figures:
+    chart1.png: null
+    chart2.png: null
+  docs:
+    methodology.md: null
+    references.bib: null
+```
+
+---
+
+## 💡 **Quick Testing Structure**
+
+### ASCII Format (For Quick Testing)
+```
+test-project/
+├── file1.txt
+├── file2.py
+├── folder1/
+│   ├── nested-file.js
+│   └── subfolder/
+│       └── deep-file.html
+└── folder2/
+    └── another-file.css
+```
+
+### JSON Format (For Quick Testing)
+```json
+{
+  "test-project": {
+    "file1.txt": null,
+    "file2.py": null,
+    "folder1": {
+      "nested-file.js": null,
+      "subfolder": {
+        "deep-file.html": null
+      }
+    },
+    "folder2": {
+      "another-file.css": null
+    }
+  }
+}
+```
+
+### YAML Format (For Quick Testing)
+```yaml
+test-project:
+  file1.txt: null
+  file2.py: null
+  folder1:
+    nested-file.js: null
+    subfolder:
+      deep-file.html: null
+  folder2:
+    another-file.css: null
+```
+
+---
+
+## 🎯 **Usage Tips:**
+
+1. **Copy any structure above** and paste it into AutoStruct
+2. **Select the correct format** (ASCII/JSON/YAML)
+3. **Set your base directory** (e.g., `/Users/yourname/Desktop/`)
+4. **Uncheck "Dry Run"** to actually create the files
+5. **Click "Create Project Structure"**
+
+All these structures will create real folders and empty files that you can then populate with your actual code!

@@ -1,0 +1,34 @@
+{
+  "ml-project": {
+    "main.py": null,
+    "requirements.txt": null,
+    "README.md": null,
+    "data": {
+      "raw": {
+        "dataset.csv": null
+      },
+      "processed": {
+        "clean_data.csv": null
+      },
+      "external": {}
+    },
+    "models": {
+      "model.pkl": null,
+      "scaler.pkl": null
+    },
+    "notebooks": {
+      "exploration.ipynb": null,
+      "training.ipynb": null
+    },
+    "src": {
+      "__init__.py": null,
+      "preprocess.py": null,
+      "train.py": null,
+      "predict.py": null
+    },
+    "tests": {
+      "test_preprocess.py": null,
+      "test_model.py": null
+    }
+  }
+}

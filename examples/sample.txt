@@ -1,0 +1,27 @@
+flask-app/
+├── app.py
+├── requirements.txt
+├── config.py
+├── .env
+├── .gitignore
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── about.html
+│   └── contact.html
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── favicon.ico
+├── models/
+│   ├── __init__.py
+│   └── user.py
+├── routes/
+│   ├── __init__.py
+│   ├── main.py
+│   └── auth.py
+└── migrations/
+    └── versions/
